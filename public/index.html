@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Gemini AI Chatbot</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+  <div class="container">
+    <header class="app-header">
+      <div>
+        <p class="eyebrow">TRAVEL ASSISTANT</p>
+        <h1>Gemini AI Chatbot</h1>
+      </div>
+      <button type="button" id="theme-toggle" class="theme-toggle" aria-label="Aktifkan dark mode" title="Aktifkan dark mode">
+        <span aria-hidden="true">☾</span>
+      </button>
+    </header>
+    <div id="chat-box" class="chat-box"></div>
+    <form id="chat-form">
+      <input type="text" id="user-input" placeholder="Tulis pesan perjalananmu..." autocomplete="off" required />
+      <button type="submit">Kirim</button>
+    </form>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
